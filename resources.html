@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources – ForgeNova AI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="32x32">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY6JK7PRH5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NY6JK7PRH5');
+</script>
+  <style>
+    /* Page-scoped: give breathing room */
+    .resources-page .section.top { padding-top: 36px; }
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 12px;
+    }
+    @media (max-width: 1100px) { .articles-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 720px)  { .articles-grid { grid-template-columns: 1fr; } }
+
+    .post-card {
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:16px;
+      box-shadow:0 2px 10px rgba(0,0,0,.05);
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+    .post-card img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+      border-radius:10px;
+      display:block;
+    }
+    .post-card h3 { margin:4px 0 0; }
+    .post-card p  { margin:0; color:#374151; }
+    .post-card .cta {
+      margin-top:10px;
+      align-self:flex-start;
+      border:none;
+      background:#ff6600;
+      color:#fff;
+      padding:8px 14px;
+      border-radius:8px;
+      font-weight:600;
+      cursor:pointer;
+      text-decoration:none;
+    }
+    .kicker { color:#6b7280; font-weight:600; letter-spacing:.02em; }
+  </style>
+</head>
+<body class="resources-page">
+<header class="site">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <span>ForgeNova AI</span>
+    </a>
+    <nav class="navlinks">
+      <a href="features.html">Features</a>
+      <a href="solutions.html">Use Cases</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn">Request a Demo</a>
+    </nav>
+    <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">Menu</button>
+  </div>
+</header>
+
+<section class="section top">
+  <div class="container">
+    <span class="kicker">Resources</span>
+    <h2>Articles & Guides</h2>
+
+    <div class="articles-grid">
+
+      <article class="post-card">
+        <img src="assets/img/blog-oee.jpg" alt="OEE dashboard on factory monitor">
+        <h3>What Is OEE and How to Improve It with No-Code Apps</h3>
+        <p>Understanding availability, performance, and quality—plus quick wins for this quarter.</p>
+        <a class="cta" href="blog-oee.html" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="post-card">
+        <img src="assets/img/blog-work-instructions.jpg" alt="Digital work instructions on laptop">
+        <h3>From Paper to Pixels: Digital Work Instructions in a Week</h3>
+        <p>Standardize SOPs and reduce training time using AI-generated forms and media steps.</p>
+        <a class="cta" href="blog-work-instructions.html" target="_blank" rel="noopener">Read</a>
+      </article>
+
+      <article class="post-card">
+        <img src="assets/img/blog-safety.jpg" alt="Safety checklist in industrial setting">
+        <h3>Safety & Compliance: Pass Audits Without the Panic</h3>
+        <p>Capture incidents, approvals, and signatures with immutable logs and scheduled reports.</p>
+        <a class="cta" href="blog-safety.html" target="_blank" rel="noopener">Read</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <strong>ForgeNova AI</strong>
+    </div>
+    <span class="muted">© <span id="year"></span> ForgeNova AI. All rights reserved.</span>
+    <div style="display:flex;gap:12px">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

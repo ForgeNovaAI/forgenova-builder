@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank You – ForgeNova AI</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Thanks for reaching out to ForgeNova AI. Our team will get back to you shortly.">
+  <link rel="canonical" href="https://forgenova.ai/thankyou.html">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="ForgeNova AI">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Thank You – ForgeNova AI">
+  <meta property="og:description" content="Thanks for reaching out to ForgeNova AI. Our team will get back to you shortly.">
+  <meta property="og:url" content="https://forgenova.ai/thankyou.html">
+  <meta property="og:image" content="https://forgenova.ai/assets/img/og-hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY6JK7PRH5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NY6JK7PRH5');
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <span>ForgeNova AI</span>
+    </a>
+    <nav class="navlinks">
+      <a href="features.html">Features</a>
+      <a href="solutions.html">Use Cases</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn">Request a Demo</a>
+    </nav>
+    <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">Menu</button>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="card-lite" style="text-align:center; max-width:720px; margin:0 auto;">
+      <h2 style="margin-bottom:8px;">Thanks — we received your request!</h2>
+      <p class="muted">Our team will reach out to you shortly. If it’s urgent, email <a href="mailto:info@forgenova.ai">info@forgenova.ai</a>.</p>
+      <div style="margin-top:16px">
+        <a href="index.html" class="btn">← Back to Home</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <strong>ForgeNova AI</strong>
+    </div>
+    <span class="muted">© <span id="year"></span> ForgeNova AI. All rights reserved.</span>
+    <div style="display:flex;gap:12px">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Year
+  const y = new Date().getFullYear();
+  const yr = document.getElementById('year'); if (yr) yr.textContent = y;
+
+  // Simple mobile menu ARIA toggle (if used)
+  const btn = document.getElementById('mobileToggle');
+  const nav = document.querySelector('.navlinks');
+  if (btn && nav) {
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      nav.hidden = open;
+    });
+  }
+</script>
+</body>
+</html>

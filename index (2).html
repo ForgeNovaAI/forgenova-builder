@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ForgeNova AI – Build Factory Apps Fast</title>
+
+  <!-- SEO basics -->
+  <meta name="description" content="AI-powered no-code app builder for factories. Build production apps in minutes—QC, inventory, maintenance, safety.">
+  <link rel="canonical" href="https://forgenova.ai/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:site_name" content="ForgeNova AI">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ForgeNova AI – Build factory apps in minutes">
+  <meta property="og:description" content="Generate UI, data model, and automations from plain English.">
+  <meta property="og:url" content="https://forgenova.ai/">
+  <meta property="og:image" content="https://forgenova.ai/assets/img/og-hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Styles -->
+<link rel="stylesheet" href="/assets/css/style.css?v=2">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY6JK7PRH5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NY6JK7PRH5');
+</script>
+  <style>
+  /* Page-scoped styles for the homepage layout */
+  .home .section { padding: 56px 0; }
+  .muted { color:#6b7280 }
+  .grid-3 { display:grid; grid-template-columns: repeat(3,1fr); gap:24px; }
+  .grid-4 { display:grid; grid-template-columns: repeat(4,1fr); gap:24px; }
+  @media (max-width:1000px){ .grid-4{grid-template-columns:repeat(2,1fr)} }
+  @media (max-width:720px){ .grid-3,.grid-4{grid-template-columns:1fr} }
+
+  .card-lite{
+    background:#fff;border:1px solid #e5e7eb;border-radius:14px;
+    padding:18px; box-shadow:0 2px 10px rgba(0,0,0,.04);
+  }
+  .card-lite h3{margin:4px 0 6px}
+  .tag{display:inline-block;background:#ff6600;color:#fff;padding:4px 8px;border-radius:6px;font-size:.75rem}
+
+  .logos{display:flex;gap:32px;align-items:center;justify-content:center;flex-wrap:wrap;opacity:.85}
+  .logos img{height:32px;filter:grayscale(100%);opacity:.85}
+
+  .shot{border-radius:12px;border:1px solid #e5e7eb;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+  .cta-strip{background:#0f172a;color:#fff;border-radius:16px;padding:28px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .cta-strip .btn{background:#ff6600;color:#fff;border:none}
+  details{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+  details+details{margin-top:10px}
+  summary{cursor:pointer;font-weight:600}
+
+  /* Testimonials */
+  .testimonials .testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  @media (max-width:900px){ .testimonials .testimonial-grid{grid-template-columns:1fr 1fr} }
+  @media (max-width:640px){ .testimonials .testimonial-grid{grid-template-columns:1fr} }
+  .testimonial-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+  .testimonial-card .quote{font-style:italic;margin-bottom:12px}
+  .testimonial-card .author{margin:8px 0 0}
+  .testimonial-card .role{color:#6b7280;font-size:.9rem}
+</style>
+
+</head>
+<body class="home">
+<header class="site">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <span>ForgeNova AI</span>
+    </a>
+    <nav class="navlinks">
+      <a href="features.html">Features</a>
+      <a href="solutions.html">Use Cases</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn">Request a Demo</a>
+    </nav>
+    <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">Menu</button>
+  </div>
+</header>
+
+<!-- ====== HERO ====== -->
+<section class="section hero">
+  <div class="container" style="display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;margin-top:0;margin-bottom:0;">
+    <!-- Left -->
+    <div style="margin:0;">
+      <span class="tag" style="background:#ffe8dc;color:#ff6600;margin-bottom:12px;display:inline-block">
+        AI-POWERED NO-CODE APP BUILDER FOR FACTORIES
+      </span>
+
+      <h1 style="margin:10px 0">Build Custom Manufacturing<br>Apps in Minutes, Not Months.<br>No Code Required.</h1>
+
+      <p class="muted" style="margin:0 0 16px">
+        Describe what you need in plain English. ForgeNova AI generates production-ready apps that streamline operations, boost OEE, and reduce costs.
+      </p>
+
+      <div style="display:flex;gap:12px;margin:0 0 18px">
+        <a href="contact.html" class="btn">Request a Demo</a>
+        <a href="features.html" class="btn" style="background:#fff;color:#111;border:1px solid #e5e7eb">Explore Features</a>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:0">
+        <div><strong>∞</strong><div class="muted">Unlimited apps</div></div>
+        <div><strong>∞</strong><div class="muted">Unlimited users</div></div>
+        <div><strong>1 site</strong><div class="muted">Simple flat pricing</div></div>
+      </div>
+    </div>
+
+    <!-- Right image (hero not lazy) -->
+    <figure class="shot" style="margin:0;padding:8px;background:#fff;border-radius:10px">
+      <img src="assets/img/hero-dashboard.jpg" alt="ForgeNova AI demo" style="width:100%;height:auto;border-radius:10px;display:block;margin:0">
+      <figcaption class="muted" style="margin-top:6px">Short demo: Describe a workflow → AI generates UI, data model & automations → deploy to teams.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ====== TRUST / LOGOS ====== -->
+<section class="section" style="padding-top:32px">
+  <div class="container">
+    <div class="card-lite" style="text-align:center">
+      <div class="muted" style="margin-bottom:10px">Trusted by teams across manufacturing, fabrication, and logistics</div>
+      <div class="logos">
+        <img src="assets/img/logo-iso.png" alt="ISO Ready" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <img src="assets/img/logo-cloud.png" alt="Cloud Secured" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <img src="assets/img/logo-partner.png" alt="Partner" loading="lazy" decoding="async" onerror="this.style.display='none'">
+        <img src="assets/img/logo-gdpr.png" alt="GDPR" loading="lazy" decoding="async" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FEATURE HIGHLIGHTS ====== -->
+<section class="section">
+  <div class="container">
+    <span class="kicker">Highlights</span>
+    <h2>Powerful out of the box</h2>
+    <div class="grid-4" style="margin-top:14px">
+      <div class="card-lite">
+        <h3>Visual Builder</h3>
+        <p class="muted">Drag-and-drop screens with fields, photos, barcode/QR, signatures, and conditional logic.</p>
+      </div>
+      <div class="card-lite">
+        <h3>AI Assistant</h3>
+        <p class="muted">Describe SOPs in plain English; we generate the data model, UI, and automations.</p>
+      </div>
+      <div class="card-lite">
+        <h3>Integrations</h3>
+        <p class="muted">ERP/CMMS, REST/GraphQL, and PLC/SCADA via OPC-UA/MQTT. Import/export CSV, PDF.</p>
+      </div>
+      <div class="card-lite">
+        <h3>Security</h3>
+        <p class="muted">SSO (SAML/OIDC), RBAC, encryption, audit logs, and data residency options.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== SOLUTIONS PREVIEW ====== -->
+<section class="section" style="padding-top:36px">
+  <div class="container">
+    <span class="kicker">Use Cases</span>
+    <h2>Apps that solve real production problems</h2>
+
+    <div class="grid-3" style="margin-top:14px">
+      <a class="card-lite" href="solutions.html" style="text-decoration:none;color:inherit">
+        <img class="shot" src="assets/img/solution-quality.jpg" alt="Quality control" style="width:100%;height:auto;margin-bottom:10px" loading="lazy" decoding="async">
+        <h3>Quality Control Checklists</h3>
+        <p class="muted">Standardize inspections with photo capture, barcode scans, auto-fail logic, and alerts.</p>
+        <span class="tag">QC • SPC • CAPA</span>
+      </a>
+      <a class="card-lite" href="solutions.html" style="text-decoration:none;color:inherit">
+        <img class="shot" src="assets/img/solution-inventory.jpg" alt="Inventory" style="width:100%;height:auto;margin-bottom:10px" loading="lazy" decoding="async">
+        <h3>Inventory Management</h3>
+        <p class="muted">Track raw materials & WIP with min/max alerts and live ERP sync.</p>
+        <span class="tag">Logistics • ERP</span>
+      </a>
+      <a class="card-lite" href="solutions.html" style="text-decoration:none;color:inherit">
+        <img class="shot" src="assets/img/solution-safety.jpg" alt="Safety" style="width:100%;height:auto;margin-bottom:10px" loading="lazy" decoding="async">
+        <h3>Safety & Compliance</h3>
+        <p class="muted">Digital permits, JHAs, incident logs, signatures, and automated reports.</p>
+        <span class="tag">EHS • Compliance</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== BENEFITS ====== -->
+<section class="section" style="padding-top:36px">
+  <div class="container">
+    <span class="kicker">Why ForgeNova AI</span>
+    <h2>Measurable impact in days</h2>
+    <div class="grid-3" style="margin-top:14px">
+      <div class="card-lite">
+        <h3>Cut Downtime</h3>
+        <p class="muted">Surface bottlenecks and act on live andon/alerts. Typical teams see 15–30% downtime reduction.</p>
+      </div>
+      <div class="card-lite">
+        <h3>Go Paperless Fast</h3>
+        <p class="muted">Digitize forms and SOPs in a week. Photos, barcodes, signatures, and approvals built-in.</p>
+      </div>
+      <div class="card-lite">
+        <h3>Audit-Ready</h3>
+        <p class="muted">Immutable logs, time-stamps, and scheduled reports keep audits painless.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TESTIMONIALS ====== -->
+<section class="section testimonials">
+  <div class="container">
+    <h2 style="text-align:center;margin-bottom:32px">What Our Customers Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <p class="quote">“ForgeNova AI helped us digitize our maintenance workflows in weeks instead of months. Our downtime dropped by 25%.”</p>
+        <h4 class="author">Mark T.</h4>
+        <span class="role">Plant Manager, AutoParts Co.</span>
+      </div>
+      <div class="testimonial-card">
+        <p class="quote">“We no longer rely on spreadsheets. The AI builder made it simple for our frontline teams to create the apps they need.”</p>
+        <h4 class="author">Susan R.</h4>
+        <span class="role">Operations Director, Fabrication Inc.</span>
+      </div>
+      <div class="testimonial-card">
+        <p class="quote">“Compliance reporting is now automated. ForgeNova AI saved us hundreds of hours during audits.”</p>
+        <h4 class="author">Alex K.</h4>
+        <span class="role">Safety Lead, Global Logistics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FAQ ====== -->
+<section class="section" style="padding-top:24px">
+  <div class="container">
+    <span class="kicker">FAQ</span>
+    <h2>Common questions</h2>
+    <div class="grid-3" style="margin-top:14px">
+      <div>
+        <details open>
+          <summary>Do I need developers to build apps?</summary>
+          <p class="muted">No. Describe your workflow and use the visual builder. Teams typically ship their first app in a few hours.</p>
+        </details>
+        <details>
+          <summary>Can you integrate with our ERP/CMMS?</summary>
+          <p class="muted">Yes. We support REST/GraphQL and PLC/SCADA via OPC-UA/MQTT. See the Integrations page.</p>
+        </details>
+      </div>
+      <div>
+        <details>
+          <summary>How do you handle security?</summary>
+          <p class="muted">SSO (SAML/OIDC), RBAC, encryption in transit, audit logs, and optional data residency.</p>
+        </details>
+        <details>
+          <summary>How is pricing structured?</summary>
+          <p class="muted">Flat per-site monthly pricing with unlimited users and apps. See the Pricing page for details.</p>
+        </details>
+      </div>
+      <div>
+        <details>
+          <summary>Can we export data?</summary>
+          <p class="muted">Yes — CSV and scheduled reports are built-in. APIs are available for automated pipelines.</p>
+        </details>
+        <details>
+          <summary>How fast can we go live?</summary>
+          <p class="muted">Most customers deploy the first workflow within a week, then iterate quickly using prompts.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CTA STRIP ====== -->
+<section class="section" style="padding-top:16px">
+  <div class="container">
+    <div class="cta-strip">
+      <div>
+        <h3 style="margin:0 0 6px">Ready to transform your factory?</h3>
+        <div class="muted">Show us a process and we’ll generate the first app on the call.</div>
+      </div>
+      <div style="display:flex;gap:10px">
+        <a href="contact.html" class="btn">Request a Demo</a>
+        <a href="features.html" class="btn" style="background:#fff;color:#0f172a;border:1px solid #334155">Explore Features</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <strong>ForgeNova AI</strong>
+    </div>
+    <span class="muted">© <span id="year"></span> ForgeNova AI. All rights reserved.</span>
+    <div style="display:flex;gap:12px">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Year
+  const y = new Date().getFullYear();
+  const yr = document.getElementById('year'); if (yr) yr.textContent = y;
+</script>
+<script src="assets/js/app.js"></script>
+<script>
+(function(){
+  const wrap = document.querySelector('.logos');
+  if (!wrap) return;
+  const visible = [...wrap.querySelectorAll('img')].some(img =>
+    (img.complete && img.naturalWidth > 0) && img.style.display !== 'none'
+  );
+  if (!visible) {
+    const card = wrap.closest('.card-lite');
+    if (card) card.style.display = 'none';
+  }
+})();
+</script>
+</body>
+</html>

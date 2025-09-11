@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Features – ForgeNova AI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="32x32">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY6JK7PRH5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NY6JK7PRH5');
+</script>
+  <!-- Page-scoped layout tweaks for spacing & grid -->
+  <style>
+    /* keep heading away from the sticky header */
+    .features-page .section.top {
+      padding-top: 48px;
+    }
+    /* 2-column grid on desktop, 1 on mobile */
+    .features-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      margin-top: 16px;
+    }
+    @media (max-width: 900px) {
+      .features-grid { grid-template-columns: 1fr; }
+    }
+
+    /* feature card */
+    .card.feature {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      padding: 18px;
+    }
+    .card.feature h3 {
+      margin-bottom: 6px;
+      font-size: 1.25rem;
+      color: #111827;
+    }
+    .card.feature p {
+      margin: 0 0 14px 0;  /* space between text and image */
+      color: #374151;
+      line-height: 1.5;
+    }
+    .card.feature img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+
+    /* small kicker above H2 */
+    .kicker { color:#6b7280; font-weight:600; letter-spacing:.02em; }
+  </style>
+</head>
+
+<body class="features-page">
+<header class="site">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <span>ForgeNova AI</span>
+    </a>
+    <nav class="navlinks">
+      <a href="features.html">Features</a>
+      <a href="solutions.html">Use Cases</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn">Request a Demo</a>
+    </nav>
+    <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">Menu</button>
+  </div>
+</header>
+
+<section class="section top">
+  <div class="container">
+    <span class="kicker">Features</span>
+    <h2>Detailed capabilities</h2>
+
+    <div class="features-grid">
+
+      <!-- Visual Builder -->
+      <div class="card feature">
+        <h3>Visual Builder</h3>
+        <p>Compose screens with fields, tables, media, barcode/QR scan, signatures, and conditional logic. Drag–drop, then publish with one click.</p>
+        <img src="assets/img/feature-visual-builder.jpg" alt="ForgeNova AI Visual Builder app designer interface">
+      </div>
+
+      <!-- AI Assistant -->
+      <div class="card feature">
+        <h3>AI Assistant</h3>
+        <p>Describe your SOPs and let the AI generate the data model, UI, and automations. Iterate via prompts and approve changes instantly.</p>
+        <img src="assets/img/feature-ai-assistant.jpg" alt="ForgeNova AI Assistant helping draft SOPs on a laptop">
+      </div>
+
+      <!-- Workflows & Automations -->
+      <div class="card feature">
+        <h3>Workflows & Automations</h3>
+        <p>Design workflow logic with triggers, conditions, approvals, escalations, and CAPA. Notify teams by email, SMS, or chat.</p>
+        <img src="assets/img/feature-workflows.jpg" alt="Holographic workflow diagram on factory floor">
+      </div>
+
+      <!-- Integrations -->
+      <div class="card feature">
+        <h3>Integrations</h3>
+        <p>Connect to ERP, PLC/SCADA, IoT, and cloud databases. Use REST/GraphQL APIs or OPC-UA/MQTT connectors to sync data securely.</p>
+        <img src="assets/img/feature-integrations.jpg" alt="Industrial control room with integrations diagram on screen">
+      </div>
+
+      <!-- Dashboards & Analytics -->
+      <div class="card feature">
+        <h3>Dashboards & Analytics</h3>
+        <p>Track production KPIs with real-time charts, drilldowns, and filters. Export reports or schedule automatic email delivery.</p>
+        <img src="assets/img/feature-dashboards.jpg" alt="Single widescreen dashboard showing charts and KPIs">
+      </div>
+
+      <!-- Security -->
+      <div class="card feature">
+        <h3>Security</h3>
+        <p>SSO (SAML/OIDC), RBAC, row-level security, encryption at rest & in transit, audit logs, and regional data residency controls.</p>
+        <img src="assets/img/feature-security.jpg" alt="ForgeNova AI login screen with 2FA">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+    <div class="brand">
+      <img src="assets/img/logo.png" alt="ForgeNova AI logo">
+      <strong>ForgeNova AI</strong>
+    </div>
+    <span class="muted">© <span id="year"></span> ForgeNova AI. All rights reserved.</span>
+    <div style="display:flex;gap:12px">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
