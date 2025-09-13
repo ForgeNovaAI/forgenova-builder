@@ -130,8 +130,8 @@ header.site{
   padding:24px 20px;
   border-top:1px solid #e5e7eb;
 }
-.footer .brand{ display:flex; align-items:center; gap:10px; font-weight:700; }
-.footer a{ color:#f2612b; font-weight:500; }
+.footer .brand{ display:flex; align-items:center; gap:4px; font-weight:700; }
+.footer a{ color:#f2612b; font-weight:700; }
 
 /* ==========================
    Contact Page — Form Styles
@@ -602,4 +602,5 @@ ul, ol{ margin: var(--space-xs) 0 var(--space-sm) var(--space-md); }
   h1{ font-size: clamp(28px, 6vw, 38px); }
   .grid, .grid.two, .grid.three, .grid-3{ gap: var(--space-sm); }
 }
+
 
